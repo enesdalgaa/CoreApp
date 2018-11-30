@@ -2,7 +2,7 @@ FROM microsoft/aspnetcore-build:2.0 AS build
 WORKDIR /app
 
 
-COPY *.csproj ./
+COPY LetsGoCustomerSystem.csproj
 RUN dotnet restore
 
 
